@@ -1,0 +1,630 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,700;1,500&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+header{
+    background: #e3e6f3;
+    height: 60px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+.element{
+    height: 45px;
+    width: 200px;
+    padding-top: 5px;
+    padding-left: 50px;
+    margin-top: 2px;
+}
+
+.tombol1{
+    float: right;
+    margin-top: 15px;
+    margin-right: 6px;    
+    
+}
+
+.subjudul{
+  text-align: center;
+  color: white;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  background-image: url(https://p4.wallpaperbetter.com/wallpaper/417/810/429/abstract-graphic-design-vector-wallpaper-preview.jpg);
+  height: 90px;
+}
+
+
+.detail{
+    margin-top: 10px;
+}
+
+
+.f1{
+    background-color: silver;
+    height: 100px;
+    text-align: center;
+}
+
+
+.element1{
+    height: 40px;
+    width: 40px;
+    padding-top: 5px;
+    padding-left: 6px;
+    border-radius: 6px;
+    
+}
+
+.sub{
+    padding-top: 10px;
+    padding-left: 8px;
+    margin-top: 45px;
+}
+
+
+
+.element2{
+    height: 40px;
+    width: 46px;
+    padding-top: 5px;
+    padding-left: 6px;
+    float: right;
+    margin-right: 10px;
+}
+
+
+
+footer{
+    padding: 5px 9px;
+    text-align: center;
+    background: #e3e6f3;
+    margin-top: 0px;
+    clear: both;
+    height: 40px;
+}
+
+
+.tlp{
+    height: 50px;
+    width: 50px;
+    margin-bottom: 10px;
+    border-radius: 80px;
+    margin-left: 10px;
+}
+
+.search{
+    padding-top: 10px;
+    padding-left: 15px;
+}
+
+.btnModal1{
+    border-radius: 20px;
+}
+
+.headGL{
+    background-image: url(gambar/city.gif);
+    height: 250px;
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+.logoGL{
+    border-radius: 80px;
+    border: 5px solid white;
+    margin-top: 20px;
+}
+
+
+.induk-clr{
+    display: flex;
+}
+
+
+
+.Deskripsi h3 p{
+    margin-left: 7px;
+    float: right;
+}
+
+
+.induk-btn{
+    display: flex;
+    justify-content: center;
+}
+
+
+.tombol-silver{
+    height: 75px;
+    width: 200px;
+    border-radius: 20px;
+    border: 0;
+    background-color: silver;
+}
+
+.tombol-grey{
+    height: 75px;
+    width: 200px;
+    border-radius: 20px;
+    border: 0;
+    background-color: grey;
+}
+
+input[type=text]{
+    width: 600px;
+    border-radius: 10px;
+    height: 40px;
+    text-align: center;
+}
+
+.pencarian{
+    text-align: center;
+}
+
+.header2 nav{
+    justify-content: center;
+}
+.logo2{
+    margin-top: 7px;
+    height: 85px;
+}
+.home{
+    width: 100%;
+    min-height: 100vh;
+    background: url(gambar/walpapper.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(17rem, auto));
+    align-items: center;
+    gap: 1.5rem;
+}
+.home-text h1 {
+    font-style: "Poppins", sans-serif;
+    font-size: 3.4rem;
+    font-weight: 700;
+    color: #e3e6f3;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-left: 60px; 
+}
+.home-text p {
+
+    font-style: "Poppins", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    color: white;
+    margin: 0.5rem 0 1.4rem;
+    margin-left: 60px;
+}
+.btn-about1{
+    margin-top: 15px;
+    margin-left: 60px; 
+    height: 50px;
+    width: 150px;
+}
+.about{
+    display: flex;
+    grid-template-columns: repeat(auto-fit, minmax(17rem, auto));
+    gap: 1.5rem;
+    box-sizing: border-box;
+    align-items: center;
+}
+.about-img img {
+    width: 602px;
+    height: 703px;
+}
+.about-text h2 {
+    font-size: 1.8rem;
+    text-transform: uppercase;
+}
+.about-text p {
+    font-size: 20px;
+    margin: 0.5rem 0 1.1rem;
+    font-weight: 500;
+}
+.home-img{
+    margin-left: 20px;
+}
+.heading {
+    align-items: center;
+}
+.heading h2 {
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    text-align: center;
+}
+.icon {
+    display: flex;
+    align-items: center;
+    column-gap: 0.5rem;
+    padding-top: 0.1px;
+    color: #e3e6f3;
+}
+.icon a .bx {
+    font-size: 24px;
+    color: black;
+    padding: 10px;
+    background-color: #e3e6f3;
+    border-radius: 0.2rem;
+    margin-bottom: 20px;
+}
+.Story{
+    margin-left: 50px;
+}
+.Contact{
+    display: flex;
+}
+.Support{
+    margin-left: 120px;
+    
+}
+.Support li a {
+    color: var(--text-color);
+    text-decoration: none;
+}
+
+.btn-crl{
+    width: 100px;
+}
+
+#product1{
+    text-align: center;
+}
+
+#product1 .pro-container{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    flex-wrap: wrap;
+}
+#product1 .pro{
+    width: 23%;
+    min-width: 250px;
+    border: 1px solid rgba(104, 104, 163, 0.467);
+    border-radius: 25px;
+    cursor: pointer;
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.06);
+    margin: 15px 0;
+    transition: 0.3s;
+    position: relative;
+}
+
+#product1 .pro:hover{
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.10);
+}
+
+#product1 .pro img{
+    width: 100%;
+    border-radius: 20px;
+}
+
+#product1 .pro .des{
+    text-align: start;
+    padding: 10px 0;
+    margin: 10px;
+}
+
+#product1 .pro .des span {
+    color: #060606;
+    font-size: 13px;
+}
+
+#product1 .pro .des h5 {
+    padding-top: 7px;
+    color: #060606;
+    font-size: 14px;
+}
+#product1 .pro .des i {
+    font-size: 13px;
+    color: rgb(243, 181, 25);
+}
+#product1 .pro .des h4 {
+    padding-top: 7px;
+    font-size: 15px;
+    font-weight: 700;
+    color: #01756e;
+}
+
+#product1 .pro .bx-cart-alt {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 50px;
+    background-color: #cce7d0;
+    font-weight: 600;
+    color: #03776f;
+    font-size: 20px;
+    border: 1px solid #cce7d0;
+    position: absolute;
+    bottom: 20px;
+    right: 10px;
+}
+.section-p1 {
+    padding: 40px 80px;
+}
+
+.Deskripsi h3{
+    text-align: right;
+}
+.Deskripsi p{
+    text-align: right;
+}
+.Deskripsi h5{
+    text-align: right;
+}
+.Deskripsi select{
+    float: right;
+}
+.Deskripsi form{
+    float: right;
+}
+.produk{
+    height: 300px;
+    width: 200px !important;
+}
+
+
+@media (max-width: 700px){
+    header{
+        background: #e3e6f3;
+        height: 60px;
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+    }
+    .header2{
+        justify-content: center;
+        display: flex;
+        width: 100%;
+    }
+    .logo{
+        height: 70px;
+        width: 105px;
+        margin-right: 20px;
+        margin-bottom: 20px;
+    }
+    .f1{
+        background-color: silver;
+        height: 100px;
+        margin-top: 30px;
+        width: 100%;
+        text-align: center;
+    }
+    .baju{
+        width: 300px;
+        height: 380px;
+        text-align: left;
+        border-radius: 20px;
+        border: 0;
+        margin-right: 10px;
+    }
+    .logo2{
+        margin-top: 7px;
+        height: 70px;
+    }
+    .tombol-silver{
+        height: 45px;
+        width: 100px;
+        border-radius: 20px;
+        border: 0;
+        background-color: silver;
+    }
+    
+    .tombol-grey{
+        height: 45px;
+        width: 100px;
+        border-radius: 20px;
+        border: 0;
+        background-color: grey;
+    }
+    input[type=text]{
+        width: 600px;
+        border-radius: 10px;
+        height: 40px;
+        text-align: center;
+    }
+    .pencarian{
+        text-align: center;
+    }
+    .subjudul{
+        text-align: center;
+        color: white;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        background-image: url(https://p4.wallpaperbetter.com/wallpaper/417/810/429/abstract-graphic-design-vector-wallpaper-preview.jpg);
+        height: 100px;
+    }
+    footer{
+        padding: 5px 9px;
+        text-align: center;
+        background: #e3e6f3;
+        margin-top: 0px;
+        clear: both;
+        height: 50px;
+    }
+    footer p{
+        font-size: small;
+    }
+    .crousel{
+        display: none;
+    }
+    .home-text h1 {
+        font-style: "Poppins", sans-serif;
+        font-size: 3.4rem;
+        font-weight: 700;
+        color: #e3e6f3;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        margin-left: 30px; 
+    }
+    .home-text p {
+    
+        font-style: "Poppins", sans-serif;
+        font-size: 18px;
+        font-weight: 500;
+        color: white;
+        margin: 0.5rem 0 1.4rem;
+        margin-left: 30px;
+    }
+    .btn-about1{
+        margin-top: 15px;
+        margin-left: 30px; 
+        height: 50px;
+        width: 150px;
+    }
+    .about-img img {
+        display: none;
+    }
+    .about-text{
+        padding-top: 20px;
+    }
+    .Contact{
+        display: inline;
+    }
+    .Support{
+        margin-left: 50px;
+        padding-top: 20px;
+    }
+}
+
+@media (max-width: 400px){
+    header{
+        background: #e3e6f3;
+        height: 60px;
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+    }
+    .header2{
+        justify-content: center;
+        display: flex;
+        width: 100%;
+    }
+    .logo{
+        height: 70px;
+        width: 105px;
+        margin-right: 20px;
+        margin-bottom: 20px;
+    }
+    .f1{
+        background-color: silver;
+        height: 50px;
+        margin-top: 30px;
+        text-align: center;
+    }
+    
+    .logo2{
+        margin-top: 3px;
+        height: 40px;
+    }
+    .tombol-silver{
+        height: 45px;
+        width: 200px;
+        border-radius: 20px;
+        border: 0;
+        background-color: silver;
+    }
+    
+    .tombol-grey{
+        height: 45px;
+        width: 200px;
+        border-radius: 20px;
+        border: 0;
+        background-color: grey;
+    }
+    input[type=text]{
+        width: 350px !important;
+        border-radius: 10px;
+        height: 40px;
+    }
+
+    .pencarian{
+        text-align: center;
+    }
+
+    .subjudul{
+        text-align: center;
+        color: white;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        background-image: url(https://p4.wallpaperbetter.com/wallpaper/417/810/429/abstract-graphic-design-vector-wallpaper-preview.jpg);
+        height: 100px;
+    }
+    footer{
+        padding: 5px 9px;
+        text-align: center;
+        background: #e3e6f3;
+        margin-top: 0px;
+        clear: both;
+        height: 50px;
+    }
+    footer p{
+        font-size: small;
+    }
+    .crousel{
+        display: none;
+    }
+    .home-text h1 {
+        font-style: "Poppins", sans-serif;
+        font-size: 3.4rem;
+        font-weight: 700;
+        color: #e3e6f3;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        margin-left: 30px; 
+    }
+    .home-text p {
+    
+        font-style: "Poppins", sans-serif;
+        font-size: 18px;
+        font-weight: 500;
+        color: white;
+        margin: 0.5rem 0 1.4rem;
+        margin-left: 30px;
+    }
+    .btn-about1{
+        margin-top: 15px;
+        margin-left: 30px; 
+        height: 50px;
+        width: 150px;
+    }
+    .about-img img {
+        display: none;
+    }
+    .about-text{
+        padding-top: 20px;
+    }
+    .Contact{
+        display: inline;
+    }
+    .Support{
+        margin-left: 50px;
+        padding-top: 20px;
+    }
+    .tombol-silver{
+        height: 50px;
+        width: 80px;
+        border-radius: 20px;
+        border: 0;
+        background-color: silver;
+    }
+    
+    .tombol-grey{
+        height: 50px;
+        width: 80px;
+        border-radius: 21px;
+        border: 0;
+        background-color: grey;
+    }
+
+    .tombol-1{
+        margin-left: 5px;
+    }
+    .tombol-2{
+        margin-left: 5px;
+    }
+    .pengubah{
+        text-decoration: none;
+        color: black;
+        font-size: small;
+    }
+}
